@@ -17,7 +17,7 @@ function App() {
   const [waterfrontId, setWaterfrontId] = useState(1);
   const [castleId, setCastleId] = useState(1);
   const [cityName, setCityName] = useState('Arrakeen');
-  const [slogans, setSlogans] = useState('Come for the spice, stay for the Shai-Hulud');
+  const [slogans, setSlogans] = useState(['Come for the spice, stay for the Shai-Hulud']);
 
   return (
     <div className="App">
