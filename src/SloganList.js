@@ -28,6 +28,7 @@ export default function SloganList({ slogans }) {
   // console.log(slogansEl, '||');
   return (
     <ul className='slogan-list'>
+      <h2>Slogans:</h2>
       {slogansEl}
     </ul>
   );
